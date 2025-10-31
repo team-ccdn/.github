@@ -1,7 +1,6 @@
 name: 📝 修正依頼
 description: 修正依頼用のissueを作成します
-title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: [""]
 assignees:
   - to-sugi
   - konno1614

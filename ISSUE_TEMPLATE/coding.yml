@@ -1,14 +1,13 @@
 name: 💻 コーディング
 description: 作業用のissueを作成します
-title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: [""]
 body:
   - type: markdown
     attributes:
       value: |
         以下の情報を記入してください。
 
-  - type: textarea
+  - type: textarea1
     id: description
     attributes:
       label: 作業内容
