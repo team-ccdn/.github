@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 質問・相談
+    url:
+    about: 修正依頼以外の質問・相談はDiscussionsをご利用ください。
+
+# issue作成時のテンプレート設定
+defaults:
+  - template: "revision_request.yml"
+    name: "📝 修正依頼"
+    about: "修正依頼用のissueを作成します。"
+  - template: "coding.yml"
+    name: "💻 コーディング"
+    about: "作業用のissueを作成します。"

@@ -1,0 +1,51 @@
+name: 📝 修正依頼
+description: 修正依頼用のissueを作成します
+labels: [""]
+assignees:
+  - to-sugi
+  - konno1614
+body:
+  - type: markdown
+    attributes:
+      value: |
+        以下の情報を記入してください。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 依頼内容
+      description: 修正対象の説明やスクリーンショットを記載してください。
+      placeholder: マークダウン形式で記述できます。
+    validations:
+      required: true
+
+  - type: input
+    id: due_date
+    attributes:
+      label: 期限日時
+      description: 修正の期限日時を入力してください。
+      placeholder: YYYY.MM.DD 00:00
+    validations:
+      required: true
+
+  - type: dropdown
+    id: deploy_env
+    attributes:
+      label: 反映する環境
+      description: どの環境への反映を希望しますか？
+      options:
+        - 反映はまだ希望しない
+        - 開発環境への反映
+        - 本番/開発環境への反映
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: チェックリスト
+      description: 依頼前に下記のチェックリストを確認してください。
+      options:
+        - label: checklist001
+        - label: checklist002
+        - label: checklist003
