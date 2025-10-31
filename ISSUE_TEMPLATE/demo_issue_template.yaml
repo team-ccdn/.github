@@ -1,0 +1,17 @@
+name: 💻 デモテンプレート
+description: 作業用のissueを作成します
+labels: [""]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        以下の情報を記入してください。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 作業内容
+      description: 作業内容を記載してください。
+      placeholder: マークダウン形式で記述できます。
+    validations:
+      required: true
