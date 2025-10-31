@@ -1,6 +1,7 @@
 name: 💻 コーディング
 description: 作業用のissueを作成します
-labels: [""]
+title: "[Bug]: "
+labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
