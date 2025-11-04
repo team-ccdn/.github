@@ -1,9 +1,7 @@
 name: 📝 修正依頼
 description: 修正依頼用のissueを作成します
 labels: [""]
-assignees:
-  - to-sugi
-  - konno1614
+assignees: [""]
 body:
   - type: markdown
     attributes:
