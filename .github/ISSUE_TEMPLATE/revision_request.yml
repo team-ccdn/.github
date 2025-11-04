@@ -44,5 +44,5 @@ body:
       label: チェックリスト
       description: 依頼前に下記のチェックリストを確認してください。
       options:
-        - label: 当プロジェクトで不要となった完了済みのissueや作業用ブランチは存在しない
-        - label: 適切なAssigneesの設定
+        - label: 当リポジトリで不要となった完了済みのissueや作業用ブランチは存在しない
+        - label: 適切なAssigneesの設定をした
