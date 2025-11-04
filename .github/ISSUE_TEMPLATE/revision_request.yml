@@ -21,8 +21,8 @@ body:
     id: due_date
     attributes:
       label: 期限日時
-      description: 修正の期限日時を入力してください。
-      placeholder: YYYY.MM.DD 00:00
+      description: 反映の期限日時を入力してください。
+      placeholder: YYYY.MM.DD 00:00 or 即時
     validations:
       required: true
 
@@ -32,9 +32,9 @@ body:
       label: 反映する環境
       description: どの環境への反映を希望しますか？
       options:
-        - 反映はまだ希望しない
         - 開発環境への反映
         - 本番/開発環境への反映
+        - 反映はまだ希望しない
     validations:
       required: true
 
@@ -44,6 +44,5 @@ body:
       label: チェックリスト
       description: 依頼前に下記のチェックリストを確認してください。
       options:
-        - label: checklist001
-        - label: checklist002
-        - label: checklist003
+        - label: 当プロジェクトで不要となった完了済みのissueや作業用ブランチは存在しない
+        - label: 適切なAssigneesの設定
