@@ -14,4 +14,4 @@ body:
       description: 作業内容を記載してください。
       placeholder: マークダウン形式で記述できます。
     validations:
-      required: true
+      required: false
